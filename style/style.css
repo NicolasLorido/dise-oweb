@@ -94,7 +94,7 @@ section{
     padding: 1%;
     margin-bottom: 1.3%;
     text-align: center;
-    color: #FFA781;
+    color: #5B0E2D;
     font-size: 100%;
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
@@ -128,7 +128,7 @@ section{
 }
 /*Contacto*/
 .formulario{
-    color: #FFA781;
+    color: #5B0E2D;
     font-size: 90%;
 }
 .mapa{
@@ -145,21 +145,15 @@ section{
 }
 /*Preguntas*/
 .preguntas h3{
-    color: #FFA781;
+    color: #5B0E2D;
     font-size: 130%;
 }
 .preguntas p{
-    color: #ffffff;
-}
-.mensajes .mensaje{
-    display: flex;
-    justify-content: space-around;
-    padding: 1%;
-    margin-bottom: 1%;
+    color: #000000;
 }
 .ofertas{
     font-size: 150%;
-    color: #FFA781;
+    color: #5B0E2D;
 }
 .productosmain img{
     margin-left: 5%;
@@ -170,7 +164,7 @@ section{
     font-size: 120%;
 }
 .mensaje p{
-    color: #ffffff;
+    color: #000000;
 }
 footer{
     background-color: #5956564d;
@@ -260,17 +254,11 @@ footer{
         justify-content: space-around;
         text-align: center;
     }
-    .mensajes{
-        padding: 6%;
-    }
     .mensaje{
         display: flex;
         flex-direction: column;
         align-items: center;
         text-align: center;
-    }
-    .preguntas{
-        padding: 6%;
     }
     .piePagina{
         font-size: 80%;
