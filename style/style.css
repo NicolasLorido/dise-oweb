@@ -21,22 +21,22 @@ section{
 }
 footer{
     grid-area: piepagina;
-}
-/*Nombre Areas contacto*/
+}*/
+/*Nombre Areas contacto
 .mapa{
     grid-area: mapa;
 }
-/*Grid Areas Contacto*/
+/*Grid Areas Contacto
 .gridcontacto{
     display: grid;
     grid-template-areas: 
     "titulo titulo"
     "menuu menuu"
-    "producto mapa"
+    "formulario mapa"
     "ingresos ingresos"
     "piepagina piepagina"
     ;
-}
+}*/
 #arriba{
     display: flex;
     justify-content: center;
