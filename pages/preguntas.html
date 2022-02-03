@@ -14,34 +14,67 @@
         <h1><a href="../index.html">NicoIndumentaria</a></h1>
     </header>
 <hr>
-<nav id="menu">
-    <ul class="menuu">
-        <li><a href="../index.html">Inicio</a></li>
-        <li><a href="./hombre.html">Hombre</a>
-            <ul class="submenu">
-                <li><a href="./remerasH.html">Remeras</a></li>
-                <li><a href="./pantalonesH.html">Pantalones</a></li>
-                <li><a href="./calzadosH.html">Calzados</a></li>
-            </ul>
+<!--menubar-->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="../index.html">
+      <img src="../img/images.png" alt="Icono" width="80" height="50">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
         </li>
-        <li><a href="./mujer.html">Mujer</a>
-            <ul class="submenu">
-                <li><a href="./remerasM.html">Remeras</a></li>
-                <li><a href="./pantalonesM.html">Pantalones</a></li>
-                <li><a href="./calzadosM.html">Calzados</a></li>
-            </ul>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Hombre
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="./hombre.html">Seccion Hombre</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="./remerasH.html">Remeras</a></li>
+            <li><a class="dropdown-item" href="./pantalonesH.html">Pantalones</a></li>
+            <li><a class="dropdown-item" href="./calzadosH.html">Calzados</a></li>
+          </ul>
         </li>
-        <li><a href="./niños.html">Niños</a>
-            <ul class="submenu">
-                <li><a href="./remerasN.html">Remeras</a></li>
-                <li><a href="./pantalonesN.html">Pantalones</a></li>
-                <li><a href="./calzadosN.html">Calzados</a></li>
-            </ul>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Mujer
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="./mujer.html">Seccion Mujer</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="./remerasM.html">Remeras</a></li>
+            <li><a class="dropdown-item" href="./pantalonesM.html">Pantalones</a></li>
+            <li><a class="dropdown-item" href="./calzadosM.html">Calzados</a></li>
+          </ul>
         </li>
-        <li><a href="./contacto.html">Contacto</a></li>
-        <li><a href="preguntas.html">Preguntas Frecuentes</a></li>
-    </ul>
-</nav>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Niños
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="./niños.html">Seccion Niños</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="./remerasN.html">Remeras</a></li>
+            <li><a class="dropdown-item" href="./pantalonesN.html">Pantalones</a></li>
+            <li><a class="dropdown-item" href="./calzadosN.html">Calzados</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="./contacto.html">Contacto</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="preguntas.html">Preguntas Frecuentes</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav><br>
+<!--Finmenubar-->
 <article class="preguntas">
     <main>
         <h3>¿HACEN ENVÍOS?</h3>
