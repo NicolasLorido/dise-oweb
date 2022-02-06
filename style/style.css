@@ -111,6 +111,10 @@ section{
 .piePagina a:hover{
     color: #ffffff;
 }
+a{
+    text-decoration: none;
+    color: #000000 ;
+}
 /*Contacto*/
 .formulario{
     color: #5B0E2D;
