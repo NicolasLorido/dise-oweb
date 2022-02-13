@@ -6,7 +6,6 @@ body{
     background-color: #5956564d;
 }
 /*Nombre areas*/
-/*hola*/
 header{
     grid-area: titulo;
 }
