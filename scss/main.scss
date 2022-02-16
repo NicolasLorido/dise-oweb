@@ -283,7 +283,7 @@ $colores:(
     font-size: $letra;
 }
 main{
-    h3{
+    h2{
         @include disepreg(#5B0E2D, 130%)
     }
     p{
