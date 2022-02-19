@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device.width, initial-scale=1.0">
-    <link rel="short icon" href="img/images.png">
+    <link rel="short icon" href="img/logod.png">
     <link rel="stylesheet" href="./bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" href="style/stylescss.css">
@@ -23,7 +23,11 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <div class="container-fluid">
     <a class="navbar-brand" href="index.html">
-      <img src="img/images.png" alt="Icono" width="80" height="50">
+      <picture class="logo">
+        <source media="(max-width: 480px)" srcset="img/logoc.png">
+        <source media="(min-width: 481px) and (max-width: 1023px)" srcset="img/logot.png">
+        <img src="img/logod.png" alt="Icono">
+      </picture>
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -89,21 +93,39 @@
     </div>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <a href="pages/calzadosH.html"><img src="./img/zapatosHombreIndex.jpg" class="d-block w-100" alt="Calzado Hombre"></a>
+        <a href="pages/calzadosH.html">
+          <picture>
+          <source media="(max-width: 480px)" srcset="./img/indeximg/calzadohc.jpg">
+          <source media="(min-width: 481px) and (max-width: 1023px)" srcset="img/indeximg/calzadoht.jpg">
+          <img src="./img/indeximg/calzadoh.jpg" class="d-block w-100" alt="Calzado Hombre">
+          </picture>
+        </a>
         <div class="carousel-caption d-none d-md-block">
           <h2>Hasta 50% off</h2>
           <p>Conocé todo lo que tenemos para vos</p>
         </div>
       </div>
       <div class="carousel-item">
-        <a href="pages/calzadosM.html"><img src="./img/zapatosMujerIndex.png" class="d-block w-100" alt="Calzado Mujer"></a>
+        <a href="pages/calzadosM.html">
+          <picture>
+            <source media="(max-width: 480px)" srcset="./img/indeximg/calzadomc.png">
+            <source media="(min-width: 481px) and (max-width: 1023px)" srcset="img/indeximg/calzadomt.png">
+            <img src="./img/indeximg/calzadom.png" class="d-block w-100" alt="Calzado Mujer">
+          </picture>
+        </a>
         <div class="carousel-caption d-none d-md-block">
           <h2>Hasta 50% off</h2></b>
           <p>Conocé todo lo que tenemos para vos</p>
         </div>
       </div>
       <div class="carousel-item">
-        <a href="pages/calzadosN.html"><img src="./img/ZapatosNiñosIndex.png" class="d-block w-100" alt="Calzado Niños"></a>
+        <a href="pages/calzadosN.html">
+          <picture>
+            <source media="(max-width: 480px)" srcset="./img/indeximg/calzadonc.png">
+            <source media="(min-width: 481px) and (max-width: 1023px)" srcset="img/indeximg/calzadont.png">
+            <img src="./img/indeximg/calzadon.png" class="d-block w-100" alt="Calzado Niños">
+          </picture>
+        </a>
         <div class="carousel-caption d-none d-md-block">
           <h2>Hasta 50% off</h2>
           <p>Conocé todo lo que tenemos para vos</p>
@@ -125,7 +147,7 @@
   <div class="row">
     <div class="col">
       <div class="card" style="width: 18rem;">
-        <img src="./img/hombreI.jfif" class="card-img-top" alt="Hombre">
+        <img src="./img/indeximg/seccionh.png" class="card-img-top" alt="Hombre">
         <div class="card-body">
           <h3 class="card-title">Sección Hombre</h3>
           <p class="card-text">Encontrá todo lo que buscas</p>
@@ -135,7 +157,7 @@
     </div>
     <div class="col">
       <div class="card" style="width: 18rem;">
-        <img src="./img/mujerI.jpg" class="card-img-top" alt="Mujer">
+        <img src="./img/indeximg/seccionm.jpg" class="card-img-top" alt="Mujer">
         <div class="card-body">
           <h3 class="card-title">Sección Mujer</h3>
           <p class="card-text">Encontrá todo lo que buscas</p>
@@ -145,7 +167,7 @@
     </div>
     <div class="col">
       <div class="card" style="width: 18rem;">
-        <img src="./img/niñosI.jpg" class="card-img-top" alt="Hombre">
+        <img src="./img/indeximg/seccionn.jpg" class="card-img-top" alt="Hombre">
         <div class="card-body">
           <h3 class="card-title">Sección Niños</h3>
           <p class="card-text">Encontrá todo lo que buscas</p>
@@ -160,7 +182,11 @@
 <section class="container">
   <article class="row">
       <div class="col-12 col-lg-4">
-          <img src="img/somos.jpg" alt="Foto Local" class="d-block w-100">
+        <picture>
+          <source media="(max-width: 480px)" srcset="./img/indeximg/somos.jpg">
+          <source media="(min-width: 481px) and (max-width: 1023px)" srcset="img/indeximg/somost.jpg">
+          <img src="./img/indeximg/somos.jpg" class="d-block w-100" alt="Foto Local">          
+        </picture>
       </div>
       <div class="col-12 col-lg-8">
           <h3>Hola, somos NicoIndumentaria</h3><br>

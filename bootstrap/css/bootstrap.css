@@ -4493,6 +4493,7 @@ textarea.form-control-lg {
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
+  margin-bottom: 5%;
 }
 .card > hr {
   margin-right: 0;
