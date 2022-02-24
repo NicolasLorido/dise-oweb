@@ -295,3 +295,8 @@ main{
     border: solid #000000;
     background-color: #5956564d;
 }
+#tarjeta{
+    &:hover{
+        transform: scale(1.10);
+    }
+}
